@@ -4,8 +4,9 @@ This is a sample login app. This repo is used as a starter for a very basic HTML
 # Success Scenario
 
 When user enters correct username and password, console message "You have logged in successully!" is displayed.
-/n username: **roopikas** 
-/n password: **Welcome1!**
+
+username: **roopikas** 
+password: **Welcome1!**
 
 # Failure Scenario
 
