@@ -8,3 +8,9 @@ When user enters correct username and password, console message "You have logged
 # Failure Scenario
 
 When user enters incorrect username and password, error message "Login failed due to incorrect username and password" is displayed.
+
+# Run App
+
+To check the app in action, execute the app hosted in Microsoft Azure: https://happy-tree-077b34f00.azurestaticapps.net/
+
+Happy Coding :)
