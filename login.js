@@ -9,11 +9,13 @@ loginButton.addEventListener("click", (e) => {
     // Get the values input by the user in the form fields
     const username = loginForm.username.value;
     const password = loginForm.password.value;
-
+    
+    //Remove any error messages displayed previously
+    loginErrorMsg.style.opacity = 0;
+    
     if (username === "roopikas" && password === "Welcome1!") {
         // If the credentials are valid, show an alert box, hide error message if any and reload the page
         alert("You have logged in successfully!");
-        loginErrorMsg.style.opacity = 0;
         location.reload();
     } else {
         // Otherwise, make the login error message show (change its oppacity)
